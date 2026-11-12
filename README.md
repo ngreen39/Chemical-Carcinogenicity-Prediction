@@ -6,7 +6,7 @@ A machine learning benchmark comparing supervised classification models to deter
 
 ## Project Purpose & Research Question
 
-> **Research Question:** How accurately can supervised machine learning algorithms classify chemical compounds as carcinogenic or non-carcinogenic based on experimental dose, route, and duration parameters of named chemicals, as well as mutagenicity status, using the author’s reported carcinogenic opinions from the CPDB as target variables?
+> **Research Question:** How accurately can supervised machine learning algorithms classify chemical compounds as carcinogenic or non-carcinogenic based on experimental exposure parameters (dose, route, duration, species, strain, and sex) and molecular descriptors, using the author’s reported carcinogenic opinions from the CPDB as target variables?
 
 ### Key Sub-Questions
 - Which model achieves the highest predictive accuracy, recall (sensitivity), and ROC-AUC on unseen chemicals?
